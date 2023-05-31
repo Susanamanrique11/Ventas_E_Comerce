@@ -1,5 +1,12 @@
 const Inicio = function () {
-    <h2>Es una prueba :3</h2>
+    return(<>
+    <section className="promociones"> {/*Carrusel con links*/}
+    </section>
+    <section className="productos_destacados">  {/*Flexbox con links*/}
+    </section>
+    <section className="ir_catalogo"> {/*Botón*/}
+    </section>
+    </>)
 }
 
 export default Inicio

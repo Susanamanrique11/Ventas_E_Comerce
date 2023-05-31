@@ -1,5 +1,10 @@
 const Carrito = function () {
-    <h2>Es una prueba :3</h2>
+    return (<>
+        <Header></Header>
+        <section className="productos_comprados"></section>
+        <section className="resumen_pedido"></section>
+        <Footer></Footer>
+    </>)
 }
 
 export default Carrito

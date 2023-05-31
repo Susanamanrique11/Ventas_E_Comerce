@@ -1,5 +1,13 @@
+import Header from "../shared/header"
+
 const Catalogo = function () {
-    <h2>Es una prueba :3</h2>
+    return (<>
+        <Header></Header>
+        <section className="filtro_busqueda"></section>
+        <section className="categorias"></section> {/*Botones*/}
+        <section className="productos_a_mostrar"></section>
+        <Footer></Footer>
+    </>)
 }
 
 export default Catalogo
