@@ -1,0 +1,45 @@
+.header{
+    background-color: rgb(154, 240, 247);
+    font-size: 10px;
+    margin: 0px;
+    size: 100%;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.inicio{ 
+    text-align: center;
+    
+}
+.titulo{
+    text-align: center;
+}
+.catalogo{
+    text-align: center;
+}
+.contactanos{ 
+    text-align: center;
+}
+.carrito{ 
+    text-align: center;
+}
+.admin{ 
+    text-align: center;
+}
+.iconos{
+    width: 100px;
+    height: 100px;
+}
+.iconos_especiales{
+    width: 80px;
+    height: 80px; 
+}
