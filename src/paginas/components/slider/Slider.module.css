@@ -17,3 +17,26 @@
 .slide.active {
     opacity: 1;
 }
+
+/*.boton {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display:block;
+    position:absolute;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    z-index: 10;
+}
+
+.boton.prev {
+    left: 4%;
+}
+
+.boton.next {
+    left: 4%;
+}*/

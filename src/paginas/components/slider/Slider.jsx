@@ -21,7 +21,7 @@ function Slider({imagenes}) {
 
     return (
         <div className={estilos.container}>
-            <button onClick={anteriorImagen} >‹</button>
+            <button className={estilos.boton} onClick={anteriorImagen} >‹</button>
             {imagenes.map((imagen, index) => {
                 return (
                     <div 
