@@ -1,4 +1,6 @@
-import Header from "../shared/header"
+
+import Header from '../shared/header'
+import Footer from '../shared/footer'
 
 const Catalogo = function () {
     return (<>
