@@ -1,3 +1,6 @@
+import Header from '../shared/header'
+import Footer from '../shared/footer'
+
 const Carrito = function () {
     return (<>
         <Header></Header>

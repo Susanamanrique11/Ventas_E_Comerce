@@ -8,6 +8,8 @@ import Admin from "./paginas/admin";
 import Catalogo from "./paginas/catalogo";
 import Carrito from "./paginas/carrito";
 import Productos from "./paginas/productos";
+import Agregar from "./paginas/agregar";
+import Footer from "./shared/footer";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,14 @@ const router = createBrowserRouter([
     path: "/admin",
       element: <Admin />,
   },
+  {
+    path: "/agregar",
+      element: <Agregar />,
+  },
+  {
+    path: "/footer",
+      element: <Footer />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
