@@ -1,12 +1,12 @@
 import Header from '../shared/header'
 import Footer from '../shared/footer'
 
-const Productos = function () {
+const Agregar = function () {
     return (<>
         <Header></Header>
-        <section className="producto"></section>
+        <section className="agregar_producto"></section>
         <Footer></Footer>
     </>)
 }
 
-export default Productos
+export default Agregar
