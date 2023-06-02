@@ -15,15 +15,15 @@ const Inicio = function () {
     const elemento2 = datosproductos[5];
     const elemento3 = datosproductos[9];
     const elemento4 = datosproductos[14];
-
-
+    
     return(<>
     <section className="promociones"> {/*Carrusel con links*/}
         <Slider imagenes={mockImagenes} />
     </section>
-    <section className="productos_destacados">  {/*Flexbox con links*/}
-        <section>
-            <ul>
+
+    <section>  {/*Flexbox con links*/}
+        <section className={InicioStyle.pdestacados_container}>
+            <ul className={InicioStyle.pdestacados_item}>
                 <li>{elemento1.name}</li>
                 <li>{elemento1.generalDescription}</li>
                 <li><img src={elemento1.image} alt="" /></li>
@@ -33,7 +33,7 @@ const Inicio = function () {
                 <li>{elemento1.attributes.nutritionInfo}</li>
                 <li>{elemento1.attributes.flavors}</li>
             </ul>
-            <ul>
+            <ul className={InicioStyle.pdestacados_item}>
                 <li>{elemento2.name}</li>
                 <li>{elemento2.generalDescription}</li>
                 <li><img src={elemento2.image} alt="" /></li>
@@ -41,26 +41,23 @@ const Inicio = function () {
                 <li>{elemento2.price}</li>
                 <li>{elemento2.attributes.size}</li>
             </ul>
-            <ul>
+            <ul className={InicioStyle.pdestacados_item}>
                 <li>{elemento3.name}</li>
                 <li>{elemento3.generalDescription}</li>
                 <li><img src={elemento3.image} alt="" /></li>
                 <li>{elemento3.description}</li>
                 <li>{elemento3.price}</li>
             </ul>
-            <ul>
-                <li>{elemento4.name}</li>
-                <li>{elemento4.generalDescription}</li>
-                <li><img src={elemento4.image} alt="" /></li>
-                <li>{elemento4.description}</li>
-                <li>{elemento4.price}</li>
-                <li>{elemento4.attributes.colors}</li>
-                <li>{elemento4.attributes.characteristics}</li>
+            <ul className={InicioStyle.pdestacados_item}>
+            <li>{elemento4.name}</li>
+            <li>{elemento4.generalDescription}</li>
+            <li><img src={elemento4.image} alt="" /></li>
+            <li>{elemento4.description}</li>
+            <li>{elemento4.price}</li>
+            <li>{elemento4.attributes.colors}</li>
+            <li>{elemento4.attributes.characteristics}</li>
             </ul>
         </section>
-    </section>
-    <section className="ir_catalogo"> {/*Botón*/}
-        <button className={InicioStyle.bcatalogo}> <Link to = "/catalogo"/></button>
     </section>
     </>)
 }
