@@ -1,6 +1,42 @@
 .general{
-    width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
-    height: 100vh; /* ocupa el 100% de la altura de la ventana */
-    margin: 0;
-    text-align: center;
-  }
+  width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
+  height: 100vh; /* ocupa el 100% de la altura de la ventana */
+  margin: 0;
+  text-align: center;
+}
+
+.form{
+  
+    align-self: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 170%;
+    color: rgb(32, 36, 36);
+    text-shadow: 2px 2px #b9b9b9;
+    font-family: 'Lobster', cursive;
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+}
+
+.input_box_margin{
+  border-radius: 10px;
+  padding: 15px;
+  width: 80%;
+  font-family: 'Pangolin', cursive;
+  margin: 2%;
+}
+
+.button_submit{
+    border-radius: 15px;
+    font-size: 1.5rem;
+    font-family: 'Pangolin', cursive;
+    background-color: rgb(228,255, 198);
+    border-style:double;
+    padding: 10px;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    
+}
+
+.button_submit:hover{
+  background-color: rgb(201, 231, 126);
+}

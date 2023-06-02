@@ -1,18 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+.app{
+  background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+}
 .pdestacados_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+    background-repeat: repeat;
   }
   .pdestacados_item {
-    flex: 0 0 calc(45% - 20px);
+    flex: 0 0 calc(40% - 20px);
     border-radius: 10px;
     padding: 2%;
     padding-top: 1%;
     text-align: center;
     background-color: rgba(187, 241, 179, 0.534);
-
+    font-family: 'Pangolin', cursive;
   }
-
   .pdestacados_item li{
     list-style-type: none;
   }
@@ -21,5 +29,23 @@
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-
   }
+  .name {
+    font-family: 'Lobster', cursive;
+    font-size: 300%;
+    text-shadow: 2px 2px rgb(69, 209, 228);
+    color: black;
+  }
+  .titulo{
+    font-family: 'Cherry Bomb One', cursive;
+    color: rgb(98, 228, 217);
+    text-align: center;
+    text-shadow: 2px 2px rgb(19, 153, 19);
+    font-size: 500%;
+    margin: 2px;
+    background-color: rgba(240, 248, 255, 0.445);
+    border-radius: 10%;
+    }
+    .t{
+      font-size: 130%;
+    }

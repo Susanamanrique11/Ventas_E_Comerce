@@ -32,15 +32,15 @@ const Entrar = function (){
 
   return (
     <>
-      <form ref={form} onSubmit={access}>
+      <form className={AdminStyle.form} ref={form} onSubmit={access}>
         <h2>Accede con tu usuario Huellitas</h2>
         <fieldset>
           <label>User: </label>
-          <input type="text" id="username" name="username" />
+          <input className={AdminStyle.input_box_margin} type="text" id="username" name="username" />
         </fieldset>
         <fieldset>
           <label>Pass: </label>
-          <input type="password" id="password" name="password" />
+          <input className={AdminStyle.input_box_margin} type="password" id="password" name="password" />
         </fieldset>
         {error && error != "" ? <p>{error}</p> : null}
         <p></p>
@@ -65,4 +65,4 @@ const Admin = function () {
     </>)
 }
 
-export default Admin
+export default Admin

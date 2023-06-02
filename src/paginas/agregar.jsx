@@ -16,10 +16,7 @@ export var newproduct = {
     image3: "",
     description: "",
     price: 0,
-    attributes: {
-      colors: '',
-      characteristics: '',
-    }
+    
 }
 
 const Add = function (){
@@ -32,43 +29,45 @@ const Add = function (){
         newproduct.name = document.getElementById('name').value;
         newproduct.category = document.getElementById('category').value;
         newproduct.generalDescription = document.getElementById('description').value;
+        newproduct.description = document.getElementById('description').value;
         newproduct.image = document.getElementById('image').value;
         newproduct.price = document.getElementById('price').value;
-        
+
+        datosproductos.push(newproduct);
         navigate("/catalogo");
     }
 
     return(<>
-    <form onSubmit={access}>
+    <form className={AgregarStyle.form} onSubmit={access}>
         <h2>Completa el formulario para añadir un nuevo producto</h2>
 
         <fieldset>
           <label>Nombre: </label>
-          <input type="text" id="name" name="name" />
+          <input className={AgregarStyle.input_box_margin} type="text" id="name" name="name" />
         </fieldset>
 
         <fieldset>
           <label>Categoría: </label>
-          <input type="text" id="category" name="category" />
+          <input className={AgregarStyle.input_box_margin} type="text" id="category" name="category" />
         </fieldset>
 
         <fieldset>
           <label>Descripción: </label>
-          <input type="text" id="description" name="description" />
+          <input className={AgregarStyle.input_box_margin} type="text" id="description" name="description" />
         </fieldset>
 
         <fieldset>
           <label>URL de imagen: </label>
-          <input type="url" id="image" name="image" />
+          <input className={AgregarStyle.input_box_margin} type="url" id="image" name="image" />
         </fieldset>
 
         <fieldset>
           <label>Precio: </label>
-          <input type="number" id="price" name="price" />
+          <input className={AgregarStyle.input_box_margin} type="number" id="price" name="price" />
         </fieldset>
 
         <p></p>
-        <button>Subir producto e ir al catálogo</button>
+        <button className={AgregarStyle.button_submit}>Subir producto e ir al catálogo</button>
     </form>
     
 
@@ -92,4 +91,4 @@ const Agregar = function () {
 }
 
 
-export default Agregar 
+export default Agregar
