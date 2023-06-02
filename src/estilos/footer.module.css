@@ -1,22 +1,32 @@
-.footer{
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-    margin-top: 40px;
+.app {
+    width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
+    height: 100vh; /* ocupa el 100% de la altura de la ventana */
+    margin: 0;
+  }
+
+.footer{
+    background-color: rgba(185, 255, 232, 0.733);
+    margin-top: 30px;
     flex-direction: column;
     display: flex;
     border-color: #ffffff00;
     align-items: center;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #000000;
     text-align: left;
     font-weight: bold;
-    margin-bottom: -5px;
+
+    
 }
 
 .titulo_contactame{
-  margin-bottom: 8px;
-  font-family: Brush Script MT;
-  font-size: 350%;
+  margin: -10px;
+  margin-top: 10px;
+  font-family: 'Cherry Bomb One', cursive;
+  font-size: 400%;
+  color: rgb(100, 168, 21);
+  text-shadow: 3px 3px #fdfcfc;
 }
 
 .formulario_contactame {
@@ -24,24 +34,32 @@
     align-self: center;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
+    font-size: 170%;
+    color: rgb(255, 85, 99);
+    text-shadow: 2px 2px #b9b9b9;
+    font-family: 'Lobster', cursive;
 }
 
 .input_box_margin{
     border-radius: 10px;
     padding: 10px;
-    width: 100%;
+    width: 200%;
     font-family: 'Pangolin', cursive;
+    margin: 5%;
 }
 
 .button_submit {
     width: 100%;
     border-radius: 15px;
     font-size: 1.5rem;
+    color: #fdfcfc;
     font-family: 'Pangolin', cursive;
-    background-color: rgb(10, 255, 2);
+    background-color: rgb(100, 168, 21);
+    box-shadow: 3px 3px #b4b4b4;
     border-style: none;
     padding: 5px;
     margin-bottom: 5%;
+    margin-top: -10%;
     margin-left: 6%;
 }
