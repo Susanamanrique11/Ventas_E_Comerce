@@ -2,7 +2,8 @@ import {Link} from "react-router-dom"
 import FooterStyle from '../estilos/footer.module.css'
 const Footer = function (){
     return (
-        <section className={FooterStyle.footer}>
+        <section className={FooterStyle.app}>
+        <div className={FooterStyle.footer}>
         <h2 className={FooterStyle.titulo_contactame}>Contáctame</h2>
             <form className={FooterStyle.formulario_contactame} action="">
                     <label htmlFor="name">Name:</label>
@@ -20,7 +21,8 @@ const Footer = function (){
                     <input className={FooterStyle.button_submit}type="submit"/>
                     <p><Link to = "/"><p>Volver al Inicio</p></Link></p>
             </form>
-    </section> 
+    </div> 
+    </section>
     )
 }
 
