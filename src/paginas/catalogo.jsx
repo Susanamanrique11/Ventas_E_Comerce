@@ -1,21 +1,28 @@
-import Header from '../shared/header';
-import Footer from '../shared/footer';
-import datosproductos from './datosproductos.jsx';
-import React, { useState } from "react";
+import Header from '../shared/header'
+import Footer from '../shared/footer'
+import datosproductos from './datosproductos.jsx'
+import React, { useState } from "react"
+import { Link } from 'react-router-dom'
+import CatalogoStyle from '../estilos/catalogo.css'
 
 const Catalogo = ({ datosproductos, category }) => {
-  const listaProductos = datosproductos
+    const listaProductos = datosproductos
     .filter((producto) => category === "all" || producto.category === category)
     .map((producto) => (
-      <div key={producto.id}>
-        <img src={producto.image} alt={producto.name} />
-        <h3>{producto.name}</h3>
-        <p>{producto.generalDescription}</p>
-        <p>${producto.price}</p>
+        <div key={producto.id} className="catalogo-item">
+        <Link to={`/catalogo/${producto.id}`}>
+            <img src={producto.image} alt={producto.name} />
+            <h3>{producto.name}</h3>
+            <p>{producto.generalDescription}</p>
+            <p>${producto.price}</p>
+            <Link to={`/catalogo/${producto.id}/carrito`}>
+                <button>Añadir al carrito</button>
+            </Link>
+        </Link>
       </div>
     ));
 
-  return <div>{listaProductos}</div>;
+    return <div className="catalogo-container">{listaProductos}</div>;
 };
 
 const ProductCatalog = () => {

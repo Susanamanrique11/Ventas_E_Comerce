@@ -17,6 +17,7 @@ const Footer = function (){
                     <textarea name="message" className="input-box margin" type="mensaje" placeholder="Escribe tu mensaje" required></textarea>
 
                     <input className="button-submit" type="submit"/>
+                    <li><Link to = "/"><p>Volver al Inicio</p></Link></li>
             </form>
     </section> 
     )
