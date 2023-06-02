@@ -1,0 +1,7 @@
+.app{
+  width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
+  height: 100vh; /* ocupa el 100% de la altura de la ventana */
+  margin: 0;
+  text-align: center  ;
+  background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+}
