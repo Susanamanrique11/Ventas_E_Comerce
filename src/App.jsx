@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import Header from './shared/header'
 import Footer from './shared/footer'
 import Inicio from './paginas/inicio'
-import AppStyle from './App.module.css'
+import AppStyle from './app.module.css'
 
 
 function App() {
