@@ -11,8 +11,6 @@
     text-align: left;
     font-weight: bold;
     margin-bottom: -5px;
-    width: 100vw; /* vw significa viewport width y hace que ocupe el 100% del ancho de la ventana */
-    
 }
 
 .titulo_contactame{
@@ -46,7 +44,4 @@
     padding: 5px;
     margin-bottom: 5%;
     margin-left: 6%;
-}
-.button_submit:hover {
-    background-color: rgb(228,255, 198);
 }

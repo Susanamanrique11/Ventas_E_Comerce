@@ -1,0 +1,9 @@
+.bcatalogo {
+    text-align: center;
+}
+
+.img{
+    object-fit: cover;
+    max-width: 100%;
+    
+}

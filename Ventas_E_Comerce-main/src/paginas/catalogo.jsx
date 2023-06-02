@@ -3,7 +3,7 @@ import Footer from '../shared/footer'
 import datosproductos from './datosproductos.jsx'
 import React, { useState } from "react"
 import { Link } from 'react-router-dom'
-
+import CatalogoStyle from '../estilos/catalogo.css'
 
 const Catalogo = ({ datosproductos, category }) => {
     const listaProductos = datosproductos

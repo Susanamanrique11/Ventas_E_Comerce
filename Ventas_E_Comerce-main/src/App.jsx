@@ -8,12 +8,10 @@ import AppStyle from './app.module.css'
 function App() {
 
   return (
-    <><section className={AppStyle.general}>
-    
+    <><section className={AppStyle.app}>
     <Header /*className = {estilos.header}*/ />
     <Inicio />
     <Footer />
-    
     </section></>
   )
 }

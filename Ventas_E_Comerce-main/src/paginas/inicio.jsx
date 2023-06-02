@@ -26,7 +26,7 @@ const Inicio = function () {
             <ul>
                 <li>{elemento1.name}</li>
                 <li>{elemento1.generalDescription}</li>
-                <li><img className={InicioStyle.img} src={elemento1.image} alt="" /></li>
+                <li><img src={elemento1.image} alt="" /></li>
                 <li>{elemento1.description}</li>
                 <li>{elemento1.price}</li>
                 <li>{elemento1.attributes.size}</li>
@@ -36,7 +36,7 @@ const Inicio = function () {
             <ul>
                 <li>{elemento2.name}</li>
                 <li>{elemento2.generalDescription}</li>
-                <li><img className={InicioStyle.img} src={elemento2.image} alt="" /></li>
+                <li><img src={elemento2.image} alt="" /></li>
                 <li>{elemento2.description}</li>
                 <li>{elemento2.price}</li>
                 <li>{elemento2.attributes.size}</li>
@@ -44,14 +44,14 @@ const Inicio = function () {
             <ul>
                 <li>{elemento3.name}</li>
                 <li>{elemento3.generalDescription}</li>
-                <li><img className={InicioStyle.img} src={elemento3.image} alt="" /></li>
+                <li><img src={elemento3.image} alt="" /></li>
                 <li>{elemento3.description}</li>
                 <li>{elemento3.price}</li>
             </ul>
             <ul>
                 <li>{elemento4.name}</li>
                 <li>{elemento4.generalDescription}</li>
-                <li><img className={InicioStyle.img} src={elemento4.image} alt="" /></li>
+                <li><img src={elemento4.image} alt="" /></li>
                 <li>{elemento4.description}</li>
                 <li>{elemento4.price}</li>
                 <li>{elemento4.attributes.colors}</li>

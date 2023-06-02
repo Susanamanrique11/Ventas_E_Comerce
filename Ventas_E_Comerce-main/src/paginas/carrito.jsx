@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import CarritoStyle from '../estilos/carrito.module.css'
 
 const Carrito = () => {
   const [productos, setProductos] = useState([]);
@@ -14,7 +13,7 @@ const Carrito = () => {
   };
 
   return (
-    <div className={CarritoStyle.general}>
+    <div>
       <h2>Carrito de compras</h2>
       {productos.length === 0 ? (
         <p>No hay productos en el carrito</p>

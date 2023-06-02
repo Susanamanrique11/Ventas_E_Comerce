@@ -1,6 +1,4 @@
-
-
-var datosproductos = [
+const datosproductos = [
   {
     id: 1,
     name: 'NutriHuellitas Adulto',
@@ -216,7 +214,6 @@ var datosproductos = [
       characteristics: 'Tallas disponibles para adaptarse a diferentes razas y tamaños. / Interior acolchado para mayor comodidad y absorción de impactos. / Correa de sujeción ajustable con cierre de liberación rápida.',
     }
   },
-  
 ];
 
 export default datosproductos;
