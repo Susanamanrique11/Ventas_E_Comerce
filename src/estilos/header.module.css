@@ -1,8 +1,9 @@
 .header{
-    background-color: rgb(154, 240, 247);
+    background-color: rgb(228, 255, 198);
     font-size: 10px;
     margin: 0px;
     size: 100%;
+    max-width: 100%;
 }
 
 .header ul{
@@ -12,9 +13,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     
 }
-
 
 .inicio{ 
     text-align: center;
@@ -22,6 +23,9 @@
 }
 .titulo{
     text-align: center;
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 150%;
 }
 .catalogo{
     text-align: center;
@@ -36,10 +40,20 @@
     text-align: center;
 }
 .iconos{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
 }
 .iconos_especiales{
-    width: 80px;
-    height: 80px; 
+    width: 40px;
+    height: 40px; 
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.slogan{
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 300%;
 }

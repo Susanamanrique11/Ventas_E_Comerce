@@ -19,7 +19,7 @@ const Header = function (){
             <li className={HeaderStyle.carrito}><Link to = "/carrito"><img className = {HeaderStyle.iconos} src= {carrito} alt="Carrito"/></Link></li>
             <li className={HeaderStyle.admin}><Link to = "/admin"><img className = {HeaderStyle.iconos} src= {admin} alt="Administrador"/></Link></li>
         </ul>
-        <h2>"Porque tu mascota lo merece"</h2> 
+        <h2 className={HeaderStyle.slogan} >"Porque tu mascota lo merece"</h2> 
     </section>
     </>
     )
