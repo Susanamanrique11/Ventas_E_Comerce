@@ -1,3 +1,25 @@
-.bcatalogo {
+.pdestacados_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .pdestacados_item {
+    flex: 0 0 calc(45% - 20px);
+    border-radius: 10px;
+    padding: 2%;
+    padding-top: 1%;
     text-align: center;
-}
+    background-color: rgba(187, 241, 179, 0.534);
+
+  }
+
+  .pdestacados_item li{
+    list-style-type: none;
+  }
+  .pdestacados_item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+
+  }
