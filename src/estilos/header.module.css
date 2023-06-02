@@ -5,7 +5,6 @@
     size: 100%;
     max-width: 100%;
 }
-
 .header ul{
     list-style-type: none;
     margin: 0;
@@ -13,16 +12,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
-
 .inicio{ 
     text-align: center;
-    
 }
 .titulo{
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 150%;
 }
 .catalogo{
     text-align: center;
@@ -45,7 +43,12 @@
     width: 40px;
     height: 40px; 
 }
-.logo {
-    width: 100px;
+.logo{
+    width: 150px;
     height: auto;
+}
+.slogan{
+    font-family: Brush Script MT;
+    text-align: center;
+    font-size: 300%;
 }
