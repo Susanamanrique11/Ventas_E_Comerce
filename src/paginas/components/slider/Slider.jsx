@@ -20,22 +20,16 @@ function Slider({imagenes}) {
     }
 
     return (
-        <div className={estilos.container}>
+        <section className={estilos.container}>
             <button className={estilos.boton} onClick={anteriorImagen} >‹</button>
             {imagenes.map((imagen, index) => {
                 return (
-                    <div 
-                        className={
-                            imagenActual === index ? `${estilos.slide} ${estilos.active}` : estilos.slide
-                        }> 
-                        {imagenActual === index && (
-                            <img key= {index} src= {imagen} alt="Promoción" />
-                        )}
-                    </div>
-                );
-            })}
-            <button onClick={siguienteImagen}>›</button>
-        </div>
+                    <section 
+                        className={imagenActual === index ? `${estilos.slide} ${estilos.active}` : estilos.slide}> 
+                        {imagenActual === index && (<img key= {index} src= {imagen} alt="Promoción" />)}
+                    </section>);})}
+            <button className={estilos.boton} onClick={siguienteImagen}>›</button>
+        </section>
     );
 }
 
