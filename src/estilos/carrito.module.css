@@ -1,0 +1,14 @@
+.general{
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
+    background-repeat: repeat;
+    text-align: center;
+  }
+
+.carrito{
+  text-align: center;
+}
+
+.carrito img{
+    width: 100px;
+    height: 100px
+}
