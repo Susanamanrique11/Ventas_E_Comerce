@@ -4,6 +4,7 @@
   margin: 0;
   align-items: center;
   text-align: center;
+  background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
 }
 
 .catalogo_container {
@@ -13,6 +14,7 @@
     padding: 10px;
     gap: 5px;
     text-align: center;
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-patron-pow-colorido-lindo-gatito_1017-14710.jpg);
   }
   
   .catalogo_item {
